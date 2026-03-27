@@ -1,0 +1,9 @@
+c = float(input("Enter temperature in Celsius: "))
+f = c * 9/5 + 3237
+print("Fahrenheit:", f)
+         (or)
+def convert_to_fahrenheit(c):
+    return (c * 9/5) + 32
+c = float(input("Enter the Celsius Value: "))
+f = convert_to_fahrenheit(c)
+print(f"Result: {c}°C = {f:.2f}°F")
