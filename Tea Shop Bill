@@ -1,0 +1,23 @@
+item_name = input("Item name: ")
+price = float(input(f"{item_name} Rate? "))
+qty = int(input("Quantity: ")
+
+subtotal = price * qty
+gst = subtotal * 5/100
+grand_total = subtotal + gst
+
+print("\n" + "="*20)
+print("   TEA SHOP BILL")
+print("="*20)
+print(f"Item:     {item_name}")
+print(f"Price:    Rs.{price}")
+print(f"Qty:      {qty}")
+print("-" * 20)
+print(f"Subtotal: Rs.{subtotal:.2f}")
+print(f"GST (5%): Rs.{gst:.2f}")
+print("-" * 20)
+print(f"Total:    Rs.{grand_total:.2f}")
+print("="*20)
+print("   THANK YOU!")
+print("="*20)
+
